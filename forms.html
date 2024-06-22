@@ -11,10 +11,26 @@
     <h1>Form Demo</h1>
 
     <form action="/tacos">
-        <input type="text" placeholder="ユーザー名">
-        <input type="password" placeholder="パスワード">
-        <input type="color">
-        <input type="number" placeholder="数字を入力">
+        <p>
+            <label for="username">ユーザー名 : </label>
+            <input id="username" type="text" placeholder="ユーザー名">
+        </p>
+
+        <p>
+            <label for="password">パスワード :</label>
+            <input id="password" type="password" placeholder="パスワード">
+        </p>
+
+        <p>
+            <label for="color">好きな色 :</label>
+            <input id="color" type="color">
+        </p>
+
+        <p>
+            <label for="number">好きな数字 :</label>
+            <input id="number" type="number" placeholder="数字を入力">
+        </p>
+
     </form>
 </body>
 
