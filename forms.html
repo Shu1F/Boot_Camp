@@ -53,8 +53,26 @@
 
     <h2>続・Input!!</h2>
     <form action="/birds">
-        <input type="checkbox" name="agree_tos" id="agree">
-        <label for="agree">利用規約に同意します</label>
+        <p>
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">利用規約に同意します</label>
+        </p>
+        <p>
+            <label for="xs">XS:</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">S:</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">M:</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <p>
+            <label for="">食事を選択してください</label>
+            <select name="meal" id="meal">
+                <option value="fish">焼き魚</option>
+                <option value="salad">サラダ</option>
+                <option value="steak" selected>ステーキ</option>
+            </select>
+        </p>
         <button>送信</button>
     </form>
 </body>
