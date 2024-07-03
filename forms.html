@@ -70,8 +70,17 @@
             <select name="meal" id="meal">
                 <option value="fish">焼き魚</option>
                 <option value="salad">サラダ</option>
-                <option value="steak" selected>ステーキ</option>
+                <option value="steak">ステーキ</option>
             </select>
+        </p>
+        <p>
+            <label for="cheese">チーズの量</label>
+            <input type="range" id="cheese" min="1" max="10" name="cheese_level"value="6">
+        </p>
+        <p>
+            <label for="comments">その他コメント：</label>
+            <br>
+            <textarea id="comments" rows="10" cols="40" placeholder="コメントを入力してください"></textarea>
         </p>
         <button>送信</button>
     </form>
