@@ -82,7 +82,22 @@
             <br>
             <textarea id="comments" rows="10" cols="40" placeholder="コメントを入力してください"></textarea>
         </p>
-        <button>登録</button>
+        <button>送信</button>
+    </form>
+
+    <h2>バリデーションDemo</h2>
+    <form action="/dummy">
+        <label for="first">名前：</label>
+        <input type="text" id="first" name="first" required>
+        <p>
+            <label for="username">ユーザー名：</label>
+            <input type="text" id="username" name="username" minlength="5" maxlength="8" required　>
+        </p>
+        <p>
+            <!-- <input type="email" required> -->
+            <input type="url">
+        </p>
+        <button>送信</button>
     </form>
 </body>
 
