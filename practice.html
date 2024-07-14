@@ -10,13 +10,47 @@
 
     <form action="/marathon_form">
         <div>
-            <label for="">姓</label>
-            <input type="text">
+            <div>
+                <label for="lastname">姓</label>
+                <input type="text" name="lastname" id="lastname" required>
+
+                <label for="firstname">名</label>
+                <input type="text" name="firstname" id="firstname" required>
+            </div>    
+            <div>
+                <label>参加するマラソンを選択：</label>
+            </div>
+            <div>
+                <input type="radio" name="Choice" id="楽しく走ろう5Km" value="楽しく走ろう5Km">
+                <label for="楽しく走ろう5Km">楽しく走ろう5Km</label>
+            </div>
+            <div>
+                <input type="radio" name="Choice" id="ハーフマラソン" value="ハーフマラソン">
+                <label for="ハーフマラソン">ハーフマラソン</label>
+            </div>
+            <div>
+                <input type="radio" name="Choice" id="フルマラソン" value="フルマラソン">
+                <label for="フルマラソン">フルマラソン</label>
+            </div>
+            <div>
+                <label for="mail">メールアドレス</label>
+                <input type="email" name="mail" id="mail">
+
+                <label for="password">パスワード</label>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="">参加する年代</label>
+                <select name="years" id="years">
+                    <option value="-18">18歳未満</option>
+                    <option value="18-30">18から30歳</option>
+                    <option value="30-50">30から50歳</option>
+                    <option value="50+">50歳以上</option>
+                </select>
+            </div>
+
         </div>
-        <div>
-            <label for="">名</label>
-            <input type="text">
-        </div>
+        <button>登録する</button>
     </form>
 </body>
 </html>
