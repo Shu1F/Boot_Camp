@@ -12,3 +12,7 @@ p {
     color: rgb(0, 0, 255);
     background: orange;
 }
+
+body {
+    background-color: rgba(27, 168, 210, 0.344);
+}
