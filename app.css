@@ -2,7 +2,8 @@ h1 {
     text-align: center;
     font-weight: normal;
     text-decoration: underline wavy;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
+    font-size: 80px;
 }
 
 a {
