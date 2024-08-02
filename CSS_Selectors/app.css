@@ -48,3 +48,7 @@ footer > a {
 input[type="password"] {
     color: greenyellow;
 }
+
+a[href*="google"] {
+    color: magenta;
+}
