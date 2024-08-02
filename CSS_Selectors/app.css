@@ -56,11 +56,6 @@ a[href*="google"] {
   color: magenta;
 }
 
-.post button:hover {
-  background-color: red;
-  color: #f1faee;
-}
-
 .post a:hover {
   text-decoration: underline;
 }
@@ -82,5 +77,14 @@ p::first-line {
 }
 
 ::selection {
-    background-color: sandybrown;
+  background-color: sandybrown;
+}
+
+.post button:hover {
+  background-color: red;
+  color: #f1faee;
+}
+
+button:hover {
+  background-color: olive;
 }
