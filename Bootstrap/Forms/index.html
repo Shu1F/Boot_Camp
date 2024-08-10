@@ -25,15 +25,25 @@
                 </div>
             </div>
 
-            <div class="form-group">
-                <label for="pref">都道府県</label>
-                <select class="form-control" name="pref" id="pref">
-                    <option value="1">北海道</option>
-                    <option value="2">青森</option>
-                </select>
+            <div class="form-row">
+                <div class="form-group col-md-3 col-6">
+                    <label for="zipcode">郵便番号</label>
+                    <input type="type" class="form-control" name="zipcode" id="zipcode">
+                </div>
+                <div class="form-group col-md-3 col-6">
+                    <label for="pref">都道府県</label>
+                    <select class="form-control" name="pref" id="pref">
+                        <option value="1">北海道</option>
+                        <option value="2">青森</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="city">市区町村</label>
+                    <input type="type" class="form-control" name="city" id="city">
+                </div>
             </div>
             <div class="form-group">
-                <label for="address">住所</label>
+                <label for="address">それ以降の住所</label>
                 <input type="type" class="form-control" name="address" id="address">
             </div>
 
@@ -42,6 +52,7 @@
                 <label class="custom-control-label" for="subscribe">購読する</label>
             </div>
 
+            <button type="submit" class="btn btn-success">登録する</button>
         </form>
     </div>
 
