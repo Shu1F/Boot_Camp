@@ -25,14 +25,29 @@
 // 10-65 大人料金
 // 65 over シニア料金
 
-const age = 100;
+// const age = 100;
 
-if (age < 5) {
-    console.log('無料です。');
-} else if (age < 10){
-    console.log('子供料金なので1000円です。');
-} else if (age < 65) {
-    console.log('大人料金なので2000円です。');
+// if (age < 5) {
+//     console.log('無料です。');
+// } else if (age < 10){
+//     console.log('子供料金なので1000円です。');
+// } else if (age < 65) {
+//     console.log('大人料金なので2000円です。');
+// } else {
+//     console.log('シニア料金なので1000円です。');
+// }
+
+const password = prompt('パスワードを入力してください：')
+
+//パスワードは6文字以上
+if (password.length >= 6) {
+    //パスワードには空白を含んではいけない
+    if (password.indexOf(' ') === -1) {
+        console.log('素晴らしいパスワードです！');
+    } else {
+        console.log('パスワードは空白を含んではいけません。');
+    }
 } else {
-    console.log('シニア料金なので1000円です。');
+    console.log('パスワードが短すぎます。6文字以上にしてください。');
 }
+
