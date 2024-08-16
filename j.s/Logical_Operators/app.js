@@ -28,9 +28,9 @@
 //     username = prompt('問題が起きました：');
 // }
 
-const age = 1;
-if (!(age >= 0 && age < 5 || age >= 65)) {
-    console.log('有料です');
-} else {
-    console.log('無料です');
-}
+// const age = 1;
+// if (!(age >= 0 && age < 5 || age >= 65)) {
+//     console.log('有料です');
+// } else {
+//     console.log('無料です');
+// }
