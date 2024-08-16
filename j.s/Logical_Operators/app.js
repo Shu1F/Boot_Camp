@@ -11,11 +11,26 @@
 // 10-65 大人料金
 // 65+ 無料
 
-const age = 90;
-if (age < 5 || age >= 65) {
+// const age = -10;
+// if ((age >= 0 && age < 5) || age >= 65) {
+//     console.log('無料です');
+// } else if (age >= 5&& age < 10) {
+//     console.log('子供料金です');
+// } else if (age >= 10 && age < 65) {
+//     console.log('大人料金です');
+// } else {
+//     console.log('無効な年齢です');
+// }
+
+// let username = prompt('ユーザー名を入力してください：');
+
+// if (!username) {
+//     username = prompt('問題が起きました：');
+// }
+
+const age = 1;
+if (!(age >= 0 && age < 5 || age >= 65)) {
+    console.log('有料です');
+} else {
     console.log('無料です');
-} else if (age < 10) {
-    console.log('子供料金です');
-} else if (age < 65) {
-    console.log('大人料金です');
 }
