@@ -37,17 +37,17 @@
 //     console.log('シニア料金なので1000円です。');
 // }
 
-const password = prompt('パスワードを入力してください：')
+// const password = prompt('パスワードを入力してください：')
 
-//パスワードは6文字以上
-if (password.length >= 6) {
-    //パスワードには空白を含んではいけない
-    if (password.indexOf(' ') === -1) {
-        console.log('素晴らしいパスワードです！');
-    } else {
-        console.log('パスワードは空白を含んではいけません。');
-    }
-} else {
-    console.log('パスワードが短すぎます。6文字以上にしてください。');
-}
+// //パスワードは6文字以上
+// if (password.length >= 6) {
+//     //パスワードには空白を含んではいけない
+//     if (password.indexOf(' ') === -1) {
+//         console.log('素晴らしいパスワードです！');
+//     } else {
+//         console.log('パスワードは空白を含んではいけません。');
+//     }
+// } else {
+//     console.log('パスワードが短すぎます。6文字以上にしてください。');
+// }
 
