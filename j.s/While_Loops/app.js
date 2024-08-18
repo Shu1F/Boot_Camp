@@ -4,11 +4,22 @@
 //     console.log(count);
 // }
 
-const SECRET = 'supersecret';
+// const SECRET = 'supersecret';
 
-let guess = '';
+// let guess = '';
 
-while (guess !==SECRET) {
-    guess = prompt('秘密のコードを入力してください：');
+// while (guess !==SECRET) {
+//     guess = prompt('秘密のコードを入力してください：');
+// }
+// console.log('正解！！');
+
+// let input = prompt('何か入力してください');
+// while(true) {
+//     input = prompt(input);
+//     if (input === 'quit') break;
+// }
+
+for (let i = 0; i < 1000; i++) {
+    console.log(i);
+    if (i === 100) break;
 }
-console.log('正解！！');
