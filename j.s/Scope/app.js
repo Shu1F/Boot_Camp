@@ -47,6 +47,49 @@
 //     hoge();
 // }
 
-const add = function(x, y) {
-    return x + y;
+// const add = function(x, y) {
+//     return x + y;
+// }
+
+// function makeRandomFunc() {
+//     const rand = Math.random();
+//     if (rand > 0.5) {
+//         return function() {
+//             console.log('おめでとう！！！！！！');
+//         }
+//     } else {
+//         return function() {
+//             alert('ウイルスに感染しました！！！！');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//             alert('閉じないで');
+//         }
+//     }
+// }
+
+const mayMath = {
+    PI: 3.14,
+    square: function (num) {
+        return num * num;
+    },
+    cube: function (num) {
+        return num ** 3;
+    }
+}
+
+//省略形
+
+const mayMath = {
+    PI: 3.14,
+    square(num) {
+        return num * num;
+    },
+    cube(num) {
+        return num ** 3;
+    }
 }
