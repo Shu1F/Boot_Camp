@@ -72,24 +72,3 @@
 //     }
 // }
 
-const mayMath = {
-    PI: 3.14,
-    square: function (num) {
-        return num * num;
-    },
-    cube: function (num) {
-        return num ** 3;
-    }
-}
-
-//省略形
-
-const mayMath = {
-    PI: 3.14,
-    square(num) {
-        return num * num;
-    },
-    cube(num) {
-        return num ** 3;
-    }
-}
