@@ -26,3 +26,7 @@ const movies = [
 const titles = movies.map(function(movie) {
     return movie.title;
 })
+
+const firstNames = fullNames.map(function(fullName) {
+    return fullName.first;
+})
